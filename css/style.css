@@ -1,0 +1,38 @@
+body{
+  font-family: Raleway, arial, sans-serif;
+  background: linear-gradient(to left, #FFEEEE , #DDEFBB);
+}
+
+#image-container {
+  display: flex;
+}
+
+.center {
+  margin-left: 42.5%;
+  padding-top: 1%;
+}
+
+.button{
+  -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 8px 20px 7px;
+  padding: 2%;
+  margin-top: 5%;
+  color: #fff;
+  background: rgba(34,34,34, .9);
+	border: 2px solid transparent;
+  font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.button:hover{
+  color: rgba(34,34,34,0.9);
+  background: rgba(0,0,0,0.2);
+}
+
+span{
+  color: rgba(34,34,34,0.7);
+}

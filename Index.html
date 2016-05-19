@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>MemeMaker-Simple</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div>
+        <ul class="center" style="list-style: none;">
+          <li>
+            <a>The Meme Generator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div style="margin-left: 54%; margin-top:2%; margin-bottom:5%;">
+      <input type="file" id="file" />
+    </div>
+    <div id="image-container" style="margin-bottom: 5%">
+      <canvas width="500" height="500"></canvas>
+      <div id="inputContainer" style="margin-left:10%;">
+        <span>Top Line:</span><br/>
+        <input id="topLineText" type="text"><br/>
+        <span>Bottom Line:</span><br/>
+        <input id="bottomLineText" type="text"><br/>
+        <button id="saveBtn" class="button">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/memeGenerator.js"></script>
+  </body>
+</html>
